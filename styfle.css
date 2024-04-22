@@ -1,0 +1,26 @@
+.tododone {
+   text-decoration: line-through;
+   color: black;
+}
+ .todo-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.todo-input {
+   flex: 1;
+   margin-right: 5px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+.todo-button {
+   padding: 5px 10px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
